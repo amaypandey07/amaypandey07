@@ -24,5 +24,5 @@
 
 ## Current Project
 
-Arcanium
+Finance Flow - An Expense Tracker
 
