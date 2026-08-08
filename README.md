@@ -24,5 +24,5 @@
 
 ## Current Project
 
-Finance Flow - An Expense Tracker
+EduFlow - Student's Dashboard
 
