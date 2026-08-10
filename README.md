@@ -19,11 +19,11 @@
 
 |  |  |
 |---|---|
-| 🎯 **Role** | *MERN Stack & AI Engineering* |
-| 📍 **Location** | *Gwalior,MAadhya Pradesh,India* |
+| 🎯 **Role** | *Full Stack Web Developer* |
+| 📍 **Location** | *Gwalior,Madhya Pradesh,India* |
 | 🎓 **Education** | *JUIT Solan * |
 | 🔭 **Currently Building** | *EduFlow - Student's Dashboard* |
-| 🌱 **Currently Learning** | *DSA | MERN Stack | Python* |
+| 🌱 **Currently Learning** | *DSA | Web Development * |
 | 📫 **Reach Me** | pandeyamay2885@gmail.com |
 
 ---
