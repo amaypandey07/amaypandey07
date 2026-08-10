@@ -19,11 +19,11 @@
 
 |  |  |
 |---|---|
-| 🎯 **Role** | *(e.g. Backend Developer / AI Engineer — edit this)* |
-| 📍 **Location** | *(your city, India)* |
-| 🎓 **Education** | *(your college + degree)* |
-| 🔭 **Currently Building** | *(your active project)* |
-| 🌱 **Currently Learning** | *(DSA / System Design / whatever's true)* |
+| 🎯 **Role** | *MERN Stack & AI Engineering* |
+| 📍 **Location** | *Gwalior,MAadhya Pradesh,India* |
+| 🎓 **Education** | *JUIT Solan * |
+| 🔭 **Currently Building** | *EduFlow - Student's Dashboard* |
+| 🌱 **Currently Learning** | *DSA | MERN Stack | Python* |
 | 📫 **Reach Me** | pandeyamay2885@gmail.com |
 
 ---
@@ -73,6 +73,35 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/amaypandey07/amaypandey07/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
+name: generate snake animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # runs every 12 hours
+  workflow_dispatch:          # lets you trigger it manually too
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: amaypandey07
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: push snake svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 > ⚠️ This shows a broken image until you add the `snake.yml` workflow — see setup steps below.
 
