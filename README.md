@@ -21,9 +21,9 @@
 |---|---|
 | 🎯 **Role** | *Full Stack Web Developer* |
 | 📍 **Location** | *Gwalior,Madhya Pradesh,India* |
-| 🎓 **Education** | *JUIT Solan * |
+| 🎓 **Education** | JUIT Solan |
 | 🔭 **Currently Building** | *EduFlow - Student's Dashboard* |
-| 🌱 **Currently Learning** | *DSA | Web Development * |
+| 🌱 **Currently Learning** | DSA | Web Development |
 | 📫 **Reach Me** | pandeyamay2885@gmail.com |
 
 ---
@@ -74,7 +74,7 @@
   <img src="https://raw.githubusercontent.com/amaypandey07/amaypandey07/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
-> ⚠️ This shows a broken image until you add the `snake.yml` workflow — see setup steps below.
+
 
 ---
 
@@ -84,9 +84,7 @@
 
 ### Project Name
 
-`Tech1` `Tech2` `Tech3`
 
-One or two lines on what it does and why you built it — the actual problem it solves.
 
 ---
 
