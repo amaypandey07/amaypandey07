@@ -11,8 +11,7 @@
   <a href="https://github.com/amaypandey07?tab=followers">
     <img src="https://img.shields.io/github/followers/amaypandey07?label=Followers&style=for-the-badge&logo=github" alt="GitHub Followers"/>
   </a>
-  <a href="https://github.com/amaypandey07?tab=repositories">
-    <img src="https://img.shields.io/github/repos/amaypandey07?label=Repositories&style=for-the-badge&logo=github" alt="Repositories"/>
+ 
   </a>
 </p>
 
